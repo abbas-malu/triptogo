@@ -32,7 +32,7 @@ with open('myfile.html', 'w') as html:
                         <div class="pack_name">{data['name'][i]}</div>
                         <div class="pack_dur">{data['duration'][i]}</div>
                         <div class="pack_desc">
-                            {data['desc'][i][:99]}....
+                            {data['desc'][i][:150]}....
                         </div>
                         <div class="pack_bottom">
                             <div class="pack_incl">
