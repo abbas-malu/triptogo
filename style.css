@@ -1,3 +1,4 @@
+/*whole site css*/
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,9 @@
     user-select: none;
     overflow-x: hidden;
 }
+/*whole site css ends*/
 
+/*navbar css*/
 .nav {
     background-color: rgba(40, 70, 144, .5);
     display: flex;
@@ -155,7 +158,9 @@ a {
     border: none;
     box-shadow: 0 0 0px 3px rgba(251, 249, 248, .5);
 }
+/*navbar css ends here*/
 
+/*home page image*/
 .main-landing {
     width: 100vw;
     height: 80vh;
@@ -185,7 +190,9 @@ a {
     font-size: 20px;
     font-weight: 600;
 }
+/*home page image css ends*/
 
+/*best package provider*/
 .packages-heading {
     padding-top: 50px;
     font-size: 45px;
@@ -300,7 +307,6 @@ a {
     transition: border .15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
-/* .best_selling_card button:active {} */
 
 .best_selling_card button:hover {
     color: rgba(255, 255, 255, 1);
@@ -313,7 +319,6 @@ a {
 
 .star_rating ion-icon {
     color: #FDCC0D;
-    /* font-size: 200px; */
 }
 
 .star_rating {
@@ -334,7 +339,9 @@ a {
     font-size: 12px;
     font-weight: 600;
 }
+/*best package provider ends*/
 
+/*user reviews*/
 .user_reviews_card_group {
     margin: 10px;
     padding: 10px;
@@ -393,7 +400,9 @@ a {
     text-align: justify;
     font-family: 'Chilanka', cursive;
 }
+/*user reviews ends*/
 
+/*brand partners*/
 .brand_card_group {
     margin: 20px 0px;
     padding: 0px;
@@ -441,8 +450,9 @@ a {
     text-align: center;
     border: none;
 }
+/*brand partners ends*/
 
-
+/*hr dividing footer*/
 .dashes{
     display: flex;
     align-items: center;
@@ -454,7 +464,9 @@ a {
     height: 5px;
     background-color: rgba(0, 0, 0,.8);
 }
+/*diving hr ends*/
 
+/*footer */
 .foot{
     font-family: 'Quicksand', sans-serif;
     padding: 30px 10px;
@@ -516,7 +528,8 @@ a {
     display: flex;
     justify-content: space-between;
 }
-/* .facebook ion-icon{
+/*
+ .facebook ion-icon{
     color: #4267B2;
 }
 .instagram ion-icon{
@@ -530,7 +543,8 @@ a {
 }
 .pinterest ion-icon{
     color: #FF0000;
-} */
+} 
+*/
 .subs_newsletter{
     display: flex;
     flex-direction: column;
@@ -589,6 +603,9 @@ a {
     outline: none;
     box-shadow: 0 0 0px 3px rgba(255, 255, 255,.4);
 }
+/*footer ends*/
+
+/*copyright*/
 .copywright{
     text-align: center;
     color: #fff;
@@ -599,7 +616,9 @@ a {
     font-family: 'Barlow', sans-serif;
     font-size: 25px;
 }
+/*copyright ends*/
 
+/*all packages */
 .heading{
     margin: 10px 10px 10px 0;
     padding: 10px 80px 10px 80px;
@@ -732,6 +751,9 @@ a {
 .buy_button button:focus{
     box-shadow: 0 0 0 4px rgba(0,0,0,.2);
 }
+/*all packages ends*/
+
+/*contact us form*/
 .contact_heading{
     margin: 10px 10px 10px 0;
     padding: 10px 80px 10px 80px;
@@ -805,6 +827,9 @@ a {
 .review_input *{
     display: block;
 }
+/*contact us form ends */
+
+/*visit us */
 .visit_div{
     display: flex;
 }
@@ -847,8 +872,6 @@ a {
     transition: border .15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
-/* .best_selling_card button:active {} */
-
 .contact_btn button:hover {
     color: rgba(255, 255, 255, 1);
     background-color: rgb(35, 61, 128);
@@ -857,3 +880,4 @@ a {
 .contact_btn button:focus {
     box-shadow: 0 0 2px 3px rgba(40, 70, 144, 0.5);
 }
+/*visit us ends*/

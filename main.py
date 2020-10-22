@@ -23,13 +23,15 @@ with open('myfile.html', 'w') as html:
             <div class="incl_name">Meal</div>
         </div>
         '''
+
+
         my_code = f'''
         <div class="package_card">
                 <!-- <div class="hr_div"></div> -->
                 <div class="pack_content">
                     <div class="pack_img"><img src="/assests/packages/{data['image id'][i]}.jpg" alt=""></div>
                     <div class="pack_desc_main">
-                        <div class="pack_name">{data['name'][i]}</div>
+                        <div class="pack_name">7}</div>
                         <div class="pack_dur">{data['duration'][i]}</div>
                         <div class="pack_desc">
                             {data['desc'][i][:150]}....
