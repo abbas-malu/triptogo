@@ -881,3 +881,94 @@ a {
     box-shadow: 0 0 2px 3px rgba(40, 70, 144, 0.5);
 }
 /*visit us ends*/
+
+/* Individual Package Information CSS starts*/
+.package_container *{
+    overflow: visible;
+}
+.package_container{
+    margin: 10px;
+    padding: 35px;
+}
+.package_name{
+    font-size: 70px;
+    font-family: 'Chilanka', cursive;
+    /* padding-left: 20px; */
+    text-align: center;
+}
+.hr_div{
+    align-self: center;
+    margin: 10px auto;
+    width: 50%;
+    height: 1px;
+    background-color: black;
+}
+.package_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.package_image img{
+    padding: 1px;
+    border: 1.5px solid grey;
+    border-radius: 50px;
+    /* box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .2); */
+    transition: transform 0.15s ease-in-out;
+}
+.package_image img:hover{
+    transform: scale(1.2);
+}
+.package_desc{
+    font-size: 20px;
+    padding: 10px 30px;
+    text-align: justify;
+    line-height: 2;
+}
+.package_inculsion{
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+.package_incl_grp{
+    padding: 20px;
+    font-size: 40px;
+}
+.package_incl_name{
+    font-size: 20px;
+}
+.package_duration{
+    font-size: 20px;
+    border: 1px solid rgb(131, 131, 131);
+    padding: 10px 20px;
+    margin: 5px 20px;
+}
+.price{
+    overflow: visible;
+    padding: 10px 20px;
+}
+.price button{
+    overflow: visible;
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(40, 70, 144);
+    background-color: rgba(40, 70, 144, 1);
+    padding: 1rem;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: border .15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.price button:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(35, 61, 128);
+}
+
+.price button:focus {
+    box-shadow: 0 0 2px 3px rgba(40, 70, 144, 0.5);
+}
+/* Individual Package Information CSS  ends*/
+

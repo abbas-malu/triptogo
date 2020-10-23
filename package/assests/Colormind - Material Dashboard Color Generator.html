@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://colormind.io/template/material-dashboard/# -->
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="shortcut icon" href="http://colormind.io/favicon32.gif" type="image/x-icon" sizes="32x32">
+		<link rel="shortcut icon" href="http://colormind.io/favicon16.gif" type="image/x-icon" sizes="16x16">
+		
+		<link rel="canonical" href="http://colormind.io/bootstrap/">
+		
+		
+    	<meta http-equiv="content-language" content="en">
+    	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="title" content="Colormind Bootstrap UI Themes">
+		<meta name="description" content="Generate color schemes for a bootstrap theme. See how it looks immediately with our bootstrap UI kit">
+
+		<title>Colormind - Material Dashboard Color Generator</title>
+		
+		<link rel="stylesheet" type="text/css" href="./Colormind - Material Dashboard Color Generator_files/bootstrap.min.css">
+		<link href="./Colormind - Material Dashboard Color Generator_files/css" rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="./Colormind - Material Dashboard Color Generator_files/style2.css">
+		<link rel="stylesheet" type="text/css" href="./Colormind - Material Dashboard Color Generator_files/colorjoe.css">
+		
+		
+		<script async="" src="./Colormind - Material Dashboard Color Generator_files/analytics.js.download"></script><script type="application/ld+json">
+		{  "@context" : "http://schema.org",
+		   "@type" : "WebSite",
+		   "url" : "http://colormind.io/",
+		   "name" : "Colormind",
+		   "image" : "http://colormind.io/img/logo.png",
+		   "description" : "Generate color palettes with deep learning - intelligent color scheme suggestions from your selected colors",
+		   "inLanguage" : [
+			"en"
+		   ],
+		   "copyrightYear" : "2017",
+		   "copyrightHolder" : [
+			{ "@type" : "Person",
+			  "url" : "http://colormind.io",
+			  "name" : "Jack Qiao",
+			  "contactPoint" : [
+			  { "@type" : "ContactPoint",
+				"url" : "http://colormind.io",
+				"email" : "jack@colormind.io",
+				"contactType" : "customer service"
+			  } ]
+			} ]
+		}
+		</script>
+		
+		<script src="./Colormind - Material Dashboard Color Generator_files/one-color.js.download"></script>
+		<script src="./Colormind - Material Dashboard Color Generator_files/colorjoe.min.js.download"></script>
+		
+		<script>
+		var model_name = 'default';		
+		</script>
+		<script src="./Colormind - Material Dashboard Color Generator_files/generate.js.download"></script>
+		
+		<script>
+		var model_name = 'ui';
+		
+		ready(function(){
+		    var frame = document.getElementById('subwindow');
+			var resize = function(){
+				frame.style.height = frame.contentWindow.document.body.scrollHeight + 'px';
+			  };
+			  
+			var set_palette = function(){
+				frame.contentWindow.setPalette(window.colors_palette);
+			}
+			
+			window.onresize = resize;
+			
+			frame.addEventListener('load', resize);
+			
+			document.getElementById('csslink').onclick = function(){
+				var url = frame.contentWindow.document.getElementById('style').href;
+				url += '&download=true';
+				window.open(url);
+				
+				return false;
+			};
+		});
+		
+		</script>
+		
+	</head>
+	
+	<body>
+	
+	<nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://colormind.io/"><img alt="Colormind Logo" src="./Colormind - Material Dashboard Color Generator_files/logo_nav.svg"><span> Colormind</span></a>
+        </div>
+        <div id="navbar">
+          <ul class="nav navbar-nav navbar-right social">
+          	<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcolormind.io%2Ftemplate%2F"><img alt="facebook icon" src="./Colormind - Material Dashboard Color Generator_files/facebook.svg"></a></li>
+            <li><a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20colormind%2C%20the%20smart%20color%20palette%20generator&amp;url=http%3A%2F%2Fcolormind.io%2Ftemplate%2F"><img alt="twitter icon" src="./Colormind - Material Dashboard Color Generator_files/twitter.svg"></a></li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="http://colormind.io/bootstrap/"><i class="glyphicon glyphicon-th"></i><span> Website Colors</span></a></li>
+            <li class="active"><a href="http://colormind.io/template/material-dashboard/#"><i class="glyphicon glyphicon-bookmark"></i><span> Templates</span></a></li>
+            <li><a href="http://colormind.io/image/"><i class="glyphicon glyphicon-camera"></i><span> Image Upload</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <nav class="navbar navbar-default navbar-sub navbar-static-top">
+	<div class="container">	
+		<ul class="nav navbar-nav">
+			<li><a href="http://colormind.io/template/paper-dashboard/">Paper Dashboard</a></li><li class="active"><a href="http://colormind.io/template/material-dashboard/#">Material Dashboard</a></li>
+		</ul>
+	</div>
+	</nav>
+	
+    <div class="container">
+	<div id="main_wrapper">
+		<div class="row colors" id="colors">
+			<div class="col-md-15 color_wrapper">
+				<div class="color" style="background-color: #fbf9f8" data-id="0" data-color="#fbf9f8" data-locked="false"><div class="swipe"></div></div>
+				<div class="color_tools">
+					<h3>FBF9F8</h3>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle lock" data-id="0"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle edit" data-id="0"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle right" data-id="0"></a>
+				</div>
+			</div>
+			<div class="col-md-15 color_wrapper">
+				<div class="color" style="background-color: #c5a2b3" data-id="1" data-color="#c5a2b3" data-locked="false"><div class="swipe"></div></div>
+				<div class="color_tools">
+					<h3>C5A2B3</h3>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle lock" data-id="1"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle edit" data-id="0"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle left" data-id="1"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle right" data-id="1"></a>
+				</div>
+			</div>
+			<div class="col-md-15 color_wrapper">
+				<div class="color" style="background-color: #90b6d6" data-id="2" data-color="#90b6d6" data-locked="false"><div class="swipe"></div></div>
+				<div class="color_tools">
+					<h3>90B6D6</h3>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle lock" data-id="2"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle edit" data-id="0"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle left" data-id="2"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle right" data-id="2"></a>
+				</div>
+			</div>
+			<div class="col-md-15 color_wrapper">
+				<div class="color" style="background-color: #5388ed" data-id="3" data-color="#5388ed" data-locked="false"><div class="swipe"></div></div>
+				<div class="color_tools">
+					<h3>5388ED</h3>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle lock" data-id="3"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle edit" data-id="0"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle left" data-id="3"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle right" data-id="3"></a>
+				</div>
+			</div>
+			<div class="col-md-15 color_wrapper">
+				<div class="color" style="background-color: #284690" data-id="4" data-color="#284690" data-locked="false"><div class="swipe"></div></div>
+				<div class="color_tools">
+					<h3>284690</h3>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle lock" data-id="4"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle edit" data-id="0"></a>
+					<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-circle left" data-id="4"></a>
+				</div>
+			</div>
+			<a href="http://colormind.io/template/material-dashboard/#" class="btn btn-default randomize"><i class="glyphicon glyphicon-refresh"></i> Generate</a>
+		</div>
+		<div id="main_wrapper_bg"></div>
+	</div>
+	
+	<div class="row">		
+		<div class="col-md-25 off-md-15 intro">
+			See the color palette applied to the Material Dashboard Bootstrap template. Lighter colors appear on the left.
+		</div>	
+		
+		<div class="col-md-25" style="position: relative; z-index: 10">
+			To use this template, download it for free from <a href="https://www.creative-tim.com/product/material-dashboard/?affiliate_id=94601" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, { eventCategory: &#39;partner&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;material-dashboard&#39;});">Creative Tim</a> then add <a href="http://colormind.io/template/material-dashboard/#" id="csslink">our css</a> to change the colors.
+		</div>	
+	</div>
+	
+	</div>
+	
+    <iframe src="./Colormind - Material Dashboard Color Generator_files/dashboard.html" id="subwindow" style="width: 100%; margin-top: 5em; min-height: 1500px; height: 1500px;" frameborder="0" scrolling="no"></iframe>
+	
+	<div class="container">
+	
+	<hr>
+	
+	<div class="row footer">
+		<div class="col-md-25">
+			<a href="http://colormind.io/">Colormind</a>
+			<a href="http://colormind.io/bootstrap/">Bootstrap UI</a>
+			<a href="http://colormind.io/template/">Templates</a>
+			<a href="http://colormind.io/blog/">Blog</a>
+			<a href="http://colormind.io/api-access/">API Access</a>
+		</div>
+		
+		<div class="col-md-25">
+			Got questions? Contact me directly at jack@colormind.io
+		</div>
+		
+	</div>
+	<div id="picker" class="colorPicker"><div class="twod" style="background: rgb(255, 0, 0);"><div class="pointer" style="left: 0%; top: 100%;"><div class="shape shape1"></div><div class="shape shape2"></div></div><div class="bg bg1"></div><div class="bg bg2"></div></div><div class="oned"><div class="pointer" style="top: 0%;"><div class="shape"></div></div><div class="bg"></div></div><div class="extras"><div class="currentColorContainer"><div class="currentColor" style="background: rgb(0, 0, 0);"></div></div><div class="hex"><label class="" for="colorPickerInput339"></label><input class="" type="text" maxlength="7" id="colorPickerInput339"></div></div></div>
+	
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52772108-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
+</div></body></html>
