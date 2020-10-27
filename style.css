@@ -1,4 +1,5 @@
 /*whole site css*/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +8,11 @@
     user-select: none;
     overflow-x: hidden;
 }
+
 /*whole site css ends*/
 
 /*navbar css*/
+
 .nav {
     background-color: rgba(40, 70, 144, .5);
     display: flex;
@@ -21,40 +24,47 @@
     overflow-x: visible;
     overflow-y: hidden;
 }
-.nav_brand{
+
+.nav_brand {
     color: white;
     font-weight: 700;
 }
-.T1,.T2,.G{
+
+.T1, .T2, .G {
     font-size: 22px;
     font-weight: 800;
 }
-.T1{
+
+.T1 {
     color: greenyellow;
 }
-.T2{
+
+.T2 {
     color: blue;
 }
-.G{
+
+.G {
     color: red;
 }
-.nav-logo{
+
+.nav-logo {
     overflow-y: hidden;
     display: flex;
     align-items: center;
 }
-.nav-logo img{
+
+.nav-logo img {
     overflow-y: hidden;
     height: 100%;
 }
 
-.nav-item-group{
+.nav-item-group {
     overflow-x: visible;
     color: white;
     /* margin-left: -200px; */
 }
 
-.nav-item-group ul{
+.nav-item-group ul {
     overflow-x: visible;
     margin-left: -200px;
     display: flex;
@@ -65,7 +75,7 @@
     height: 100%;
 }
 
-.nav-list li{
+.nav-list li {
     display: flex;
     justify-content: space-around;
     letter-spacing: 1px;
@@ -126,8 +136,6 @@ a {
     color: rgb(77, 77, 77);
 }
 
-
-
 .nav-search-group button {
     outline: none;
     border: none;
@@ -149,7 +157,6 @@ a {
 .nav-search-group button:active {
     outline: none;
     border: none;
-
 }
 
 .nav-search-group button:focus {
@@ -158,9 +165,11 @@ a {
     border: none;
     box-shadow: 0 0 0px 3px rgba(251, 249, 248, .5);
 }
+
 /*navbar css ends here*/
 
 /*home page image*/
+
 .main-landing {
     width: 100vw;
     height: 80vh;
@@ -174,8 +183,7 @@ a {
     /* background-attachment: fixed; */
 }
 
-.main-heading,
-.qoute-line {
+.main-heading, .qoute-line {
     color: rgb(71, 71, 71);
 }
 
@@ -190,9 +198,11 @@ a {
     font-size: 20px;
     font-weight: 600;
 }
+
 /*home page image css ends*/
 
 /*best package provider*/
+
 .packages-heading {
     padding-top: 50px;
     font-size: 45px;
@@ -307,7 +317,6 @@ a {
     transition: border .15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
-
 .best_selling_card button:hover {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(40, 70, 144, 1);
@@ -339,9 +348,11 @@ a {
     font-size: 12px;
     font-weight: 600;
 }
+
 /*best package provider ends*/
 
 /*user reviews*/
+
 .user_reviews_card_group {
     margin: 10px;
     padding: 10px;
@@ -400,9 +411,11 @@ a {
     text-align: justify;
     font-family: 'Chilanka', cursive;
 }
+
 /*user reviews ends*/
 
 /*brand partners*/
+
 .brand_card_group {
     margin: 20px 0px;
     padding: 0px;
@@ -410,7 +423,8 @@ a {
     align-content: center;
     justify-content: space-between;
 }
-.brand_card{
+
+.brand_card {
     background-color: #A0DFCF;
     margin: auto 00px;
     display: flex;
@@ -420,29 +434,33 @@ a {
     width: 100%;
     min-height: 100%;
     height: 100%;
-/*    border: .5 solid black;*/
-/*    border-radius: 10px;*/
+    /*    border: .5 solid black;*/
+    /*    border-radius: 10px;*/
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.15s ease-in-out
 }
-.brand_card img{
-/*    width: 200px;    */
+
+.brand_card img {
+    /*    width: 200px;    */
     border-radius: 10px;
     width: 100%;
     height: 100%;
     padding: 30px;
 }
-.brand_card img:nth-child(3){
+
+.brand_card img:nth-child(3) {
     width: 160%;
 }
-.brand_heading{
+
+.brand_heading {
     padding-top: 50px;
     font-size: 45px;
     color: rgb(144, 182, 214);
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
 }
-.brand_heading hr{
+
+.brand_heading hr {
     margin: 10px auto;
     width: 35%;
     height: 1px;
@@ -450,24 +468,29 @@ a {
     text-align: center;
     border: none;
 }
+
 /*brand partners ends*/
 
 /*hr dividing footer*/
-.dashes{
+
+.dashes {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.dash{
+
+.dash {
     margin: 20px 5px 5px 5px;
-    width:70px;
+    width: 70px;
     height: 5px;
-    background-color: rgba(0, 0, 0,.8);
+    background-color: rgba(0, 0, 0, .8);
 }
+
 /*diving hr ends*/
 
 /*footer */
-.foot{
+
+.foot {
     font-family: 'Quicksand', sans-serif;
     padding: 30px 10px;
     background-color: #000000;
@@ -478,35 +501,41 @@ a {
     justify-content: space-around;
 }
 
-.foot_brand{
+.foot_brand {
     font-family: 'Barlow', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.foot_logo{
+
+.foot_logo {
     display: flex;
     color: white;
     width: 256px;
     height: 144px;
 }
-.foot_heading{
+
+.foot_heading {
     font-size: 30px;
 }
-.foot_brand .T1{
+
+.foot_brand .T1 {
     font-size: 50px;
     font-weight: 800;
 }
-.foot_brand .T2{
+
+.foot_brand .T2 {
     font-size: 50px;
     font-weight: 800;
 }
-.foot_brand .G{
+
+.foot_brand .G {
     font-size: 50px;
     font-weight: 800;
 }
-.follow_us{
+
+.follow_us {
     display: flex;
     line-height: 2;
     flex-direction: column;
@@ -514,20 +543,24 @@ a {
     align-items: flex-start;
     color: white;
 }
-.social_text{
+
+.social_text {
     font-size: 15px;
     margin-top: -6px;
 }
-.follow_us li{
+
+.follow_us li {
     display: flex;
     align-items: flex-start;
     /* justify-content: center; */
     font-size: 20px;
 }
-.social_follow a{
+
+.social_follow a {
     display: flex;
     justify-content: space-between;
 }
+
 /*
  .facebook ion-icon{
     color: #4267B2;
@@ -545,21 +578,25 @@ a {
     color: #FF0000;
 } 
 */
-.subs_newsletter{
+
+.subs_newsletter {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
-.newsletter_heading{
+
+.newsletter_heading {
     color: white;
     font-size: 20px;
-    margin: 20px ;
+    margin: 20px;
 }
-.newsletter_input{
+
+.newsletter_input {
     overflow: visible;
 }
-.newsletter_input input{
+
+.newsletter_input input {
     padding: .400rem .60rem;
     border: none;
     border-bottom: 1px solid white;
@@ -569,17 +606,21 @@ a {
     width: 320px;
     color: rgb(255, 255, 255);
 }
-.newsletter_input input::placeholder{
+
+.newsletter_input input::placeholder {
     font-size: 15px;
     color: rgb(255, 255, 255);
 }
+
 /* .newsletter_input input:focus{
     box-shadow: 0px 5px 5px 0px rgba(255, 255, 255,.2);
 } */
-.newsletter_button{
+
+.newsletter_button {
     overflow: visible;
 }
-.newsletter_button button{
+
+.newsletter_button button {
     font-size: 15px;
     font-weight: 600;
     color: white;
@@ -591,42 +632,51 @@ a {
     border-radius: 5px;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.newsletter_button button:active{
+
+.newsletter_button button:active {
     outline: none;
 }
-.newsletter_button button:hover{
+
+.newsletter_button button:hover {
     background-color: white;
     outline: none;
     color: black;
 }
-.newsletter_button button:focus{
+
+.newsletter_button button:focus {
     outline: none;
-    box-shadow: 0 0 0px 3px rgba(255, 255, 255,.4);
+    box-shadow: 0 0 0px 3px rgba(255, 255, 255, .4);
 }
+
 /*footer ends*/
 
 /*copyright*/
-.copywright{
+
+.copywright {
     text-align: center;
     color: #fff;
     background-color: black;
     font-weight: 600;
 }
-.copywright span{
+
+.copywright span {
     font-family: 'Barlow', sans-serif;
     font-size: 25px;
 }
+
 /*copyright ends*/
 
 /*all packages */
-.heading{
+
+.heading {
     margin: 10px 10px 10px 0;
     padding: 10px 80px 10px 80px;
     font-size: 50px;
     font-weight: 700;
 }
-.package_grp{
-    margin: 10px; 
+
+.package_grp {
+    margin: 10px;
     padding: 10px 80px;
     display: flex;
     flex-direction: column;
@@ -634,11 +684,13 @@ a {
     align-content: space-between;
     justify-content: space-between;
 }
-.padding{
+
+.padding {
     height: 90px;
     width: 100%;
 }
-.package_card{
+
+.package_card {
     padding: 20px 10px;
     width: 100%;
     margin: 20px 0px;
@@ -647,34 +699,40 @@ a {
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.15s ease-in-out;
 }
-.package_card:hover{
+
+.package_card:hover {
     transform: scaleX(10%);
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
 }
-.package_card .hr_div{
+
+.package_card .hr_div {
     width: 100%;
     height: 1px;
     background-color: black;
 }
-.package_card .pack_name{
+
+.package_card .pack_name {
     padding: 0px 0px 15px 0px;
     font-size: 30px;
-    color: rgb(40, 70, 144);   
+    color: rgb(40, 70, 144);
 }
 
-.pack_content{
+.pack_content {
     display: flex;
     justify-content: space-between;
 }
-.pack_content .pack_img{
+
+.pack_content .pack_img {
     padding: 20px 10px;
 }
-.pack_content .pack_img img{
+
+.pack_content .pack_img img {
     width: calc(730px/3);
     height: calc(469px/3);
     border-radius: 10px;
 }
-.pack_dur{
+
+.pack_dur {
     margin: 3px 0px 10px 0px;
     font-size: 13px;
     color: grey;
@@ -683,24 +741,28 @@ a {
     border: 1px solid grey;
     border-radius: 10px;
 }
-.pack_desc_main{
+
+.pack_desc_main {
     padding: 20px 10px;
     max-width: 60%;
     display: flex;
     flex-direction: column;
 }
-.pack_desc{
+
+.pack_desc {
     font-size: 13px;
     word-spacing: 0px;
     text-align: justify;
 }
-.pack_bottom{
+
+.pack_bottom {
     padding: 10px 0px 10px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.pack_incl{
+
+.pack_incl {
     display: flex;
     justify-content: space-between;
     /* padding-top: 30px; */
@@ -708,10 +770,12 @@ a {
     width: 70%;
     color: rgb(122, 122, 122);
 }
-.incl_name{
+
+.incl_name {
     font-size: 13px;
 }
-.pack_side_bar{
+
+.pack_side_bar {
     margin-top: 10px;
     padding: 20px 5px;
     display: flex;
@@ -719,20 +783,24 @@ a {
     /* justify-content: spa; */
     align-content: flex-end;
 }
-.pack_price{
+
+.pack_price {
     text-align: right;
     font-size: 30px;
 }
-.pack_price div{
+
+.pack_price div {
     font-size: 10px;
 }
-.buy_button{
+
+.buy_button {
     margin-top: 30px;
     overflow: visible;
     display: flex;
     justify-content: right;
 }
-.buy_button button{
+
+.buy_button button {
     cursor: pointer;
     font-size: 15px;
     padding: .400rem .80rem;
@@ -743,36 +811,44 @@ a {
     border-radius: 5px;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.buy_button button:hover{
+
+.buy_button button:hover {
     background-color: black;
     color: white;
     outline: none;
 }
-.buy_button button:focus{
-    box-shadow: 0 0 0 4px rgba(0,0,0,.2);
+
+.buy_button button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, .2);
 }
+
 /*all packages ends*/
 
 /*contact us form*/
-.contact_heading{
+
+.contact_heading {
     margin: 10px 10px 10px 0;
     padding: 10px 80px 10px 80px;
     font-size: 50px;
     font-weight: 700;
 }
-.contact_col{
+
+.contact_col {
     padding: 10px 80px;
     margin: 20px 0;
 }
-.contact_col *{
+
+.contact_col * {
     overflow: visible;
     /* border: 1px solid black; */
 }
-.contact_col label{
+
+.contact_col label {
     margin: 20px 0px 5px 0px;
     color: rgb(100, 100, 100);
 }
-.contact_col input{
+
+.contact_col input {
     width: 100%;
     border: 1px solid rgb(204, 204, 204);
     outline: none;
@@ -780,14 +856,17 @@ a {
     border-radius: 5px;
     transition: border .15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
-.contact_col input:hover{
+
+.contact_col input:hover {
     background-color: aliceblue;
 }
-.contact_col input:focus{
+
+.contact_col input:focus {
     outline: none;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
 }
-.contact_col textarea{
+
+.contact_col textarea {
     width: 100%;
     border: 1px solid rgb(204, 204, 204);
     outline: none;
@@ -795,67 +874,85 @@ a {
     border-radius: 5px;
     transition: border .15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
-.contact_col textarea:hover{
+
+.contact_col textarea:hover {
     background-color: aliceblue;
 }
-.contact_col textarea:focus{
+
+.contact_col textarea:focus {
     outline: none;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
 }
-.form_inline{
+
+.form_inline {
     display: flex;
     /* width: 100%; */
 }
-.phone_input,.email_input{
+
+.phone_input, .email_input {
     width: 100%;
 }
-.phone_input{
+
+.phone_input {
     margin-left: 10px;
 }
-.email_input{
+
+.email_input {
     margin-right: 10px;
 }
-.name_input *{
+
+.name_input * {
     display: block;
 }
-.email_input *{
+
+.email_input * {
     display: block;
 }
-.phone_input *{
+
+.phone_input * {
     display: block;
 }
-.review_input *{
+
+.review_input * {
     display: block;
 }
+
 /*contact us form ends */
 
 /*visit us */
-.visit_div{
+
+.visit_div {
     display: flex;
 }
-.visitUs{
+
+.visitUs {
     display: flex;
     padding: 10px 80px;
     flex-direction: column;
     justify-content: space-between;
     height: 150px;
 }
-.address{
+
+.address {
     color: grey;
     font-size: 15px;
 }
-.phone_no{
+
+.phone_no {
     color: grey;
     font-size: 15px;
 }
-.emailAdd{
+
+.emailAdd {
     color: grey;
     font-size: 15px;
 }
-.website{
+
+.website {
     color: grey;
     font-size: 15px;
 }
+
 .contact_btn button {
     margin-top: 20px;
     font-weight: 500;
@@ -880,74 +977,89 @@ a {
 .contact_btn button:focus {
     box-shadow: 0 0 2px 3px rgba(40, 70, 144, 0.5);
 }
+
 /*visit us ends*/
 
 /* Individual Package Information CSS starts*/
-.package_container *{
+
+.package_container * {
     overflow: visible;
 }
-.package_container{
+
+.package_container {
     margin: 10px;
     padding: 35px;
 }
-.package_name{
+
+.package_name {
     font-size: 70px;
     font-family: 'Chilanka', cursive;
     /* padding-left: 20px; */
     text-align: center;
 }
-.hr_div{
+
+.hr_div {
     align-self: center;
     margin: 10px auto;
     width: 50%;
     height: 1px;
     background-color: black;
 }
-.package_image{
+
+.package_image {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
-.package_image img{
+
+.package_image img {
     padding: 1px;
     border: 1.5px solid grey;
     border-radius: 50px;
     /* box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .2); */
     transition: transform 0.15s ease-in-out;
 }
-.package_image img:hover{
+
+.package_image img:hover {
     transform: scale(1.2);
 }
-.package_desc{
+
+.package_desc {
     font-size: 20px;
     padding: 10px 30px;
     text-align: justify;
     line-height: 2;
 }
-.package_inculsion{
+
+.package_inculsion {
     display: flex;
     justify-content: space-around;
     color: grey;
 }
-.package_incl_grp{
+
+.package_incl_grp {
     padding: 20px;
     font-size: 40px;
 }
-.package_incl_name{
+
+.package_incl_name {
     font-size: 20px;
 }
-.package_duration{
+
+.package_duration {
     font-size: 20px;
     border: 1px solid rgb(131, 131, 131);
     padding: 10px 20px;
     margin: 5px 20px;
 }
-.price{
+
+.price {
     overflow: visible;
     padding: 10px 20px;
 }
-.price button{
+
+.price button {
     overflow: visible;
     margin-top: 20px;
     font-weight: 500;
@@ -962,6 +1074,7 @@ a {
     font-size: 20px;
     transition: border .15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
+
 .price button:hover {
     color: rgba(255, 255, 255, 1);
     background-color: rgb(35, 61, 128);
@@ -970,5 +1083,80 @@ a {
 .price button:focus {
     box-shadow: 0 0 2px 3px rgba(40, 70, 144, 0.5);
 }
+
 /* Individual Package Information CSS  ends*/
 
+/* About us Page*/
+
+/* .about_us_main * {
+    border: 1px solid black;
+} */
+
+.about_us_main {
+    padding: 20px 80px;
+}
+
+.about_us_heading {
+    padding-left: 300px;
+    font-size: 45px;
+    color: rgb(144, 182, 214);
+    text-align: left;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.about_us_desc {
+    border-right: 10px solid rgba(54, 17, 88,.8);
+    padding-left: 20px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 20px;
+    width: 70%;
+}
+
+.about_desc {
+    padding: 20px 10px;
+}
+
+.about_offers {
+    padding-left: 30px;
+    font-family: 'Grenze Gotisch', cursive;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.list_offers {
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.about_image_main {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    /*
+    padding-right: 50px;
+    padding-left: 50px;
+*/
+}
+
+.about_image_main img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 2px 5px 6px 3px rgba(0, 0, 0, .5);
+    transition: .5s ease-in-out;
+}
+
+.about_image_main img:hover {
+    box-shadow: 5px 7px 8px 5px rgba(0, 0, 0, .5);
+    transition: .5s ease-in-out;
+    transform: scale(1.2);
+}
+
+.about_us_main {
+    display: flex;
+}
+
+/* About us ends*/

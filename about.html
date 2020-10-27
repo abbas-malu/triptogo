@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--head part-->
+<!--head-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Trip To Go</title>
+    <title>About Us | Trip To Go</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
@@ -14,12 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
 </head>
-<!--head part end-->
+<!--head ends-->
+<!--Main Body Starts-->
 
-<!--body start-->
 <body>
-<!--   navbar start-->
+    <!--navbar-->
     <header>
         <div class="nav">
             <div class="nav-logo">
@@ -31,15 +33,15 @@
                 <ul class="nav-list">
                     <a href="index.html">
                         <li class="nav-item">Home</li>
-                    </a> 
+                    </a>
                     <a href="packages.html">
                         <li class="nav-item">Packages</li>
                     </a>
-                    <a href="about.html">
-                        <li class="nav-item ">About Us</li>
-                    </a>
                     <a href="">
-                        <li class="nav-item active">Contact Us</li>
+                        <li class="nav-item active">About Us</li>
+                    </a>
+                    <a href="contact.html">
+                        <li class="nav-item">Contact Us</li>
                     </a>
                 </ul>
             </div>
@@ -49,57 +51,49 @@
             </div>
         </div>
     </header>
+    <!--    navbar ended-->
     <div class="padding"></div>
-<!--    navbar ended-->
-    
-<!--    query form-->
-    <section class="contactUs">
-        <div class="contact_heading">
-            Contact Us
-        </div>
-        <div class="contact_col">
-            <div class="name_input">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Your Name Here">
-            </div>
-            <div class="form_inline">
-                <div class="email_input">
-                    <label for="name">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Your Email Here (abc@example.com)">
+    <!-- About Us Section Start -->
+    <section class="about_us_container">
+        <!--<div class="hr_div"></div>-->
+        <div class="about_us_main">
+            <div class="about_us_desc">
+                <div class="about_us_heading">About us</div>
+                <div class="about_desc">
+                    The founder of this agency is Mohammed Malu, Our Trip to go tours and travel agency is handled by
+                    the professionals having decades of experience in travel industry. Entire travel arrangements are
+                    carried out with minimal exertion or stress to our customer, so that they can enjoy there holidays
+                    with full of excitement. Here we also cherish the memories which every traveller would always wanted
+                    to have first in there journey.
                 </div>
-                <div class="phone_input">
-                    <label for="name">Mobile Number</label>
-                    <input type="tel" name="phone" id="phone" placeholder="Your 10 Digit Mobile No.">
+                <div class="about_offers">
+                    By collecting all the best of arrangements here we are offering:-<br>
+                    &nbsp;&nbsp;&nbsp;Packaged Tours
+                    <ul class="offers">
+                        <li class="list_offers">>> India</li>
+                        <li class="list_offers">>> United States of America</li>
+                        <li class="list_offers">>> Europe</li>
+                    </ul>
+                    &nbsp;&nbsp;&nbsp;Flights services<br>
+                    &nbsp;&nbsp;&nbsp;Railway and Bus bookings<br>
+                    &nbsp;&nbsp;&nbsp;Hotel bookings<br>
+                    &nbsp;&nbsp;&nbsp;Sightseeing<br>
+                    &nbsp;&nbsp;&nbsp;City tour<br>
+                </div>
+                <div class="about_inculs">
+                    <ul>
+
+                    </ul>
                 </div>
             </div>
-            <div class="review_input">
-                <label for="name">How may we help you?</label>
-                <textarea name="review" id="review" cols="30" rows="10"></textarea>
-            </div>
-            <div class="contact_btn">
-                <button type="button">Submit</button>
+            <div class="about_image_main">
+                <img src="assests/mohammed.jpeg" alt="">
             </div>
         </div>
     </section>
-<!--    query form ended-->
-   
-<!--   address details-->
-    <section class="contact_details">
-        <div class="contact_heading">
-            Visit Us
-        </div>
-        <div class="visit_div">
-            <div class="visitUs">
-                <div class="address">Address: 841, Khatiwala Tank, Indore Madhya Pradesh</div>
-                <div class="phone_no">Mobile No: +916232705352</div>
-                <div class="emailAdd">Email: a.m.30342029@gmail.com</div>
-                <div class="website">Website: www.triptogo.com</div>
-            </div>
-        </div>
-    </section>
-<!--    address over-->
-  
-<!--   footer starts-->
+    <!-- About Us Section End -->
+
+    <!--   Footer part-->
     <footer class="footer">
         <div class="foot">
             <div class="foot_brand">
@@ -107,7 +101,8 @@
                     <img src="assests/logo/large.png" alt="">
                 </div>
                 <div class="foot_heading">
-                    <div class="nav_brand"><span class="T1">T</span>rip <span class="T2">T</span>o <span class="G">G</span>o</div>
+                    <div class="nav_brand"><span class="T1">T</span>rip <span class="T2">T</span>o <span
+                            class="G">G</span>o</div>
                 </div>
             </div>
             <div class="follow_us">
@@ -115,19 +110,19 @@
                 <ul class="social_follow">
                     <li class="instagram">
                         <a href="https://www.instagram.com/?hl=en">
-                            <ion-icon name="logo-instagram"></ion-icon>&nbsp; 
+                            <ion-icon name="logo-instagram"></ion-icon>&nbsp;
                             <span class="social_text">Instagram</span>
                         </a>
                     </li>
                     <li class="facebook">
                         <a href="https://www.facebook.com/">
-                            <ion-icon name="logo-facebook"></ion-icon>&nbsp; 
+                            <ion-icon name="logo-facebook"></ion-icon>&nbsp;
                             <span class="social_text">Facebook</span>
                         </a>
                     </li>
                     <li class="twitter">
                         <a href="https://twitter.com/">
-                            <ion-icon name="logo-twitter"></ion-icon>&nbsp; 
+                            <ion-icon name="logo-twitter"></ion-icon>&nbsp;
                             <span class="social_text">Twitter</span>
                         </a>
                     </li>
@@ -158,10 +153,11 @@
             </div>
         </div>
         <div class="copywright">
-           <span>&copy;</span> 2020 Trip To Go. All Rights Reserved.
+            <span>&copy;</span> 2020 Trip To Go. All Rights Reserved.
         </div>
     </footer>
-<!--    footer ends-->
+    <!--    Footer ended-->
 </body>
-<!--body ends-->
+<!--main body ends-->
+
 </html>
